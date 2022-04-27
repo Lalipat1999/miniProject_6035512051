@@ -1,0 +1,45 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image : url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148910071.jpg?w=2000");
+  color: rgb(96, 133, 227);
+}
+
+.content {
+  min-width: 30vw;
+  display: flex;
+  
+}
+.custom{
+  margin: 10px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 100px auto;
+  margin-bottom: 16px;
+  
+}
+
+.gridContainer>div {
+  background-color: rgba(300, 300, 300, 0.8);
+  text-align: left;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.gridContainer>div>input {
+  width: 100%;
+  padding: 2px 2px;
+  margin: 25px 20;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+  
+.box{
+background-color: white;
+}

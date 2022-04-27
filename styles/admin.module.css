@@ -1,0 +1,101 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    background-image : url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148910071.jpg?w=2000");
+  color: rgb(111, 12, 131);
+    
+  }
+ 
+  .list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px;
+    padding: 1px;
+    flex-wrap: wrap;
+    border: 40px solid #fdc5ff;
+  }
+  
+  .listItem {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #c2f9a0;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  .buttonUpdate{
+    background-color: #fcbdff;
+    border-radius: 10%;
+    border: none;
+    color: rgb(49, 24, 24);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .btttonGet{
+    background-color: #9160eb;
+    border-radius: 10%;
+    border: none;
+    color: rgb(49, 24, 24);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonDel{
+    background-color: #4bdd63;
+    border-radius: 10%;
+    border: none;
+    color: rgb(49, 24, 24);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .buttonAdd{
+    background-color: #59ecff;
+    border: none;
+    color: rgb(49, 24, 24);
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 15px;
+  }
+
+  .formadd{
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      padding: 20px;
+      border: 15px solid #d6fa46;
+      font-size: 1.4rem;
+      text-align: center;
+      
+  }
+
+  .box{
+    background-color: rgb(217, 255, 244);
+    }
+  
